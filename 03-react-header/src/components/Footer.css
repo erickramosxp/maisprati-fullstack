@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    background-color:  rgb(17, 6, 43);
+    align-items: center;
+}
+
+.footer_content ul{
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer_content ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.links_autor img {
+    height: 70px;
+}
