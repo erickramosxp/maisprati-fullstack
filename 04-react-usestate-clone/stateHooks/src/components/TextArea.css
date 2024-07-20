@@ -1,0 +1,16 @@
+.dinamic_text {
+    margin: 20px auto;
+    padding-top: 10px;
+    height: 150px;
+    width: 400px;
+    background-color: aqua;
+    overflow-x: auto;
+}
+
+.dinamic_text_text {
+    margin-top: 10px;
+}
+
+.dinamic_text_text p {
+    margin: 10px;
+}

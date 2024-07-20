@@ -1,0 +1,29 @@
+.area_text {
+    height: 300px;
+    width: 400px;
+    margin: 20px auto 0 auto;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.area_text button{
+    display: block;
+    margin: 5px auto;
+}
+
+.area_text ul {
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.area_text li {
+    list-style: none;
+    margin: 2px auto;
+    background-color: aliceblue;
+    width: 90%;
+}
+
+.area_text_input {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}

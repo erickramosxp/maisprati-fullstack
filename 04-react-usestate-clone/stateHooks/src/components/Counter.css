@@ -1,0 +1,11 @@
+.counter {
+    height: 70px;
+    width: 400px;
+    padding-top: 10px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.counter button {
+    margin-top: 10px;
+}
