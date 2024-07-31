@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+form {
+    display: flex;
+    background: gray;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.check_error {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(190, 7, 7);
+}
