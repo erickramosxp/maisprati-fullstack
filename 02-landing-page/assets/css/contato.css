@@ -1,0 +1,33 @@
+.conteudo_contato {
+    height: 650px;
+}
+
+.formulario {
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    width: 800px;
+    background-color: var(--azul-escuro);
+    border-radius: 5px;
+}
+
+
+.formulario fieldset {
+    border: none;
+    height: 500px;
+}
+
+.formulario legend {
+    font-size: 50px;
+    color: var(--bege-claro);
+    padding-bottom: 30px;
+}
+
+.formulario label {
+    color: var(--bege-claro);
+    display: block;
+}
+
+.formulario fieldset div+div {
+    margin-top: 10px;
+}

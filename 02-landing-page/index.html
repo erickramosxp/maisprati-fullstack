@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaristaHouse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="cup.ico" type="image/x-icon"/>
+</head>
+
+<body onload="setDisplay(0)">
+    <header>
+        <nav>
+            <ul class="navegacao">
+                <li><a onclick="changeDisplay(0)" href="#">Home</a></li>
+                <li><a onclick="changeDisplay(1)" href="#">Produtos</a></li>
+                <li><a onclick="changeDisplay(2)" href="#">Localização</a></li>
+                <li><a onclick="changeDisplay(3)" href="#">Sobre nós</a></li>
+                <li><a onclick="changeDisplay(4)" href="#">Contato</a></li>
+            </ul>
+            <span class="carrinho">
+                <img src="./assets/img/carrinho.png" alt="">
+            </span>
+        </nav>
+    </header>
+    <main>
+        <div class="conteudo_primario" id="inicio">
+            <div class="backgroudlogo">
+                <div id="logo">
+                    <h1>BaristaHouse</h1>
+                </div>
+            </div>
+            <section class="conteudo_primario_texto">
+                <h1>Escolha agora sua cafeteira</h1>
+                <span class="backgroudimg"></span>
+                <div class="carrosel">
+                    <div id="imgs_carrosel">
+                        <img src="../assets/img/carrosel/mini.jpg" alt="">
+                        <img src="../assets/img/carrosel/cafeteira.png" alt="">
+                        <img src="../assets/img/carrosel/cafeteira_indus.webp" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p>
+            Todos os direitos reservados BaristaHouse LTDA&copy;
+        </p>
+    </footer>
+    <div id="pop-up">
+        <div id="pop-up-content">
+            <div>
+                <h2>Conteúdo enviado com sucesso</h2>
+                <button class="butao" onclick="fecharPopUp()">Fechar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/home.js" defer></script>
+</body>
+</html>

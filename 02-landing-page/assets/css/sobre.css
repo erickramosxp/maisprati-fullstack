@@ -1,0 +1,40 @@
+.conteudo_sobre {   
+    margin: auto;
+    text-align: center;
+}
+
+.conteudos {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo_sobre .mapa{
+    margin-right: 50px;
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+}
+
+.conteudo_sobre_texto {
+    overflow-y: auto;
+    text-align: center;
+    background-color: var(--azul-escuro);
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+}
+
+.conteudo_sobre_texto h2 {  
+    color: var(--bege-claro);
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.conteudo_sobre_texto p {
+    color: var(--bege-claro);
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

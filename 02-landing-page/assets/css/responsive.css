@@ -1,0 +1,125 @@
+@media screen and (max-width: 480px) {
+
+    .navegacao li+li {
+        margin-left: auto;
+    }
+
+    #logo {
+        font-size: 15px;
+        width: 250px;
+    }
+    .conteudo_primario_texto > img {
+        max-width: 350px
+    }
+
+    .conteudo_principal {
+        display: block;
+        height: auto;
+    }
+
+    .produtos {
+        display: block;
+        height: auto;
+    }
+
+    .produto + .produto{
+        margin-left: auto;
+    }
+
+    .produto {
+        display: block;
+        width: 300px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .conteudo_sobre {
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .conteudos {
+        position:unset;
+        height: auto;
+    }
+
+    iframe {
+        width: 350px;
+    }
+
+    .conteudo_sobre .mapa {
+        display: block;
+        position:static;
+        left: auto;
+        top: auto;
+        transform: none;
+        width: 350px;
+        margin: auto;
+    }
+
+    .conteudo_sobre_texto {
+        width: 350px;
+        display: block;
+        position:static;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        width: 330px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+    .conteudos {
+        position:unset;
+        height: auto;
+    }
+
+    .conteudo_sobre .mapa {
+        display: block;
+        position:static;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin: 20px auto;
+        width: auto;
+    }
+    
+    iframe {
+        width: 700px;
+        margin: auto;
+    }
+    
+    .conteudo_sobre_texto {
+        width: 75%;
+        display: block;
+        position:static;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin: 20px auto;
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .conteudo_sobre {
+        width: auto;
+    }
+    .mapa {
+        margin-right: 0;
+    }
+
+    .conteudo_sobre_texto {
+        margin-left: 1%;
+    }
+}
